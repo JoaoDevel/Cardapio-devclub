@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #000;
+}
+
+.menu-btn{
+    display: flex;
+    gap: 3rem;
+    margin: 5rem 0;
+}
+
+.menu-btn button{
+    border: none;
+    padding: 1.3rem;
+    background-color: rgb(140, 228, 140);
+    border-radius: 4%;
+    color: #fff;
+    width: 130px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+}
+
+.menu-btn button:hover{
+    background: rgb(100, 224, 100);
+}
+
+.menu-items{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    color: #fff;
+    gap: 1.8rem;
+}
+
+.menu-items div{
+    border: 1px solid rgb(100, 224, 100);
+    border-radius: .9rem;
+    padding: .1rem;
+}
+
+.menu-items div p{
+    margin-left: .8rem;
+}
+
+.menu-items div p:last-child{
+    color: rgb(100, 224, 100);
+}
+
+img{
+    width: 100%;
+    border-radius: .9rem;
+}
